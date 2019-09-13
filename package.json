@@ -1,0 +1,25 @@
+{
+  "name": "adele",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirigableNorge/Adele.git"
+  },
+  "author": "dirigableNorge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirigableNorge/Adele/issues"
+  },
+  "homepage": "https://github.com/dirigableNorge/Adele#readme",
+  "devDependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
