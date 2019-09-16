@@ -4,7 +4,8 @@
   "description": "website",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,16 @@
   },
   "homepage": "https://github.com/dirigableNorge/Adele#readme",
   "devDependencies": {
+    "autoprefixer": "7.2.x",  
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-rename": "^1.4.0"
   }
 }
